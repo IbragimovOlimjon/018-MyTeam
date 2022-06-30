@@ -6,6 +6,7 @@
     --color-state-green:#012F34;
     --color-footer:#002529;
     --global-color:#014E56;
+    --color-globus:#2C6269;
     --fonts:'Livvic', 'Arial', sans-serif;
 }
 
@@ -167,10 +168,14 @@ img {
     padding-top: 56px;
     padding-bottom: 250px;
     position: relative;
-    background-image: url('../img/pozition-img.svg'),
-     url(../img/hero-bottom-img.svg);
-    background-repeat: no-repeat;
-    background-position: calc(50% - 721px) 53px, 
+    background-image: 
+    url('../img/pozition-img.svg'),
+    url(../img/hero-bottom-img.svg);
+    background-repeat:
+    no-repeat,
+    no-repeat;
+    background-position:
+    calc(50% - 721px) 53px, 
     calc(50% - -376px) 404px;
 }
 
@@ -215,4 +220,90 @@ img {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+    flex-grow: 1;
+}
+.build-manage {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--color-state-green);
+}
+
+.build-manage__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.build-menege__title-wrapper {
+    width: 445px;
+    margin-right: 125px;
+}
+.build__line {
+    width: 50px;
+    height: 4px;
+    background-color: var(--color-light);
+    margin: 0;
+    border: none;
+    margin-bottom: 54px;
+}
+.build__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0;
+}
+.build-manage__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 58px;
+}
+.build-menege__iteam {
+    display: flex;
+    max-width: 540px;
+}
+
+.build-menege__iteam:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.build-menege-wrapper {
+    display: flex;
+    align-items: center;
+    width: 87px;
+    height: 60px;
+    background-color: var(--color-globus);
+    border-radius: 50%;
+    position: relative;
+}
+.build-menege__img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+.build-menege__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 37px;
+}
+.build-menege__heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.build-menege__text {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
 }
