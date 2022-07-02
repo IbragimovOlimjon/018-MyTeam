@@ -470,6 +470,10 @@ img {
     transition: 0.1s ease;
 }
 
+.lower-section__btn:focus {
+    outline-color: var(--color-globus);
+}
+
 .lower-section__btn:hover {
     color: var(--color);
     background-color: var(--color-state-green);
