@@ -855,7 +855,14 @@ img {
 /* CONTACT-US-HTML */
 .hero-contact {
     padding-top: 47px;
-    padding-bottom: 120px;
+    padding-bottom: 105px;
+    background-image: 
+    url("../img/contact-left-img.svg"),
+    url("../img/contact-right-img.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 
+    calc(50% + -721px) 50px,
+    calc(50% + 719px) 368px;
 }
 
 .hero-contact__container {
