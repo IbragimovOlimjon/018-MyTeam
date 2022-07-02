@@ -416,9 +416,7 @@ img {
     margin: 0;
     margin-bottom: 24px;
 }
-.delivering__info {
-    
-}
+
 .delivering__name {
     font-weight: 700;
     font-size: 18px;
@@ -487,6 +485,7 @@ img {
     padding-bottom: 48px;
     background-color: var(--color-footer);
 }
+
 .site-footer__container {
     display: flex;
     align-items: center;
@@ -497,6 +496,7 @@ img {
     flex-direction: column;
     margin-right: 125px;
 }
+
 .site-footer__logo {
     display: flex;
     flex-shrink: 0;
@@ -515,6 +515,7 @@ img {
     height: 40px;
     object-fit: contain;
 }
+
 .site-footer__list {
     display: flex;
     align-items: center;
@@ -523,9 +524,11 @@ img {
     list-style: none;
     margin-top: 25px;
 }
+
 .site-footer__item:not(:last-child) {
     margin-right: 40px;
 }
+
 .site-footer__link {
     display: inline-block;
     text-decoration: none;
@@ -547,14 +550,17 @@ img {
 .text-inner {
 margin-right: auto;
 }
+
 .site-footer__text {
     margin: 0;
     color: rgba(255, 255, 255, 0.5);
 }
+
 .social__wrapper {
     display: flex;
     flex-direction: column;
 }
+
 .social__list {
     display: flex;
     align-items: center;
@@ -563,9 +569,11 @@ margin-right: auto;
     margin: 0;
     list-style: none;
 }
+
 .social__iteam:not(:last-child) {
 margin-right: 16px;
 }
+
 .social__link {
     display: flex;
 }
@@ -581,7 +589,32 @@ color: var(--color-light);
     color: var(--color);
     transition: 0.1s ease;
 }
+
 .social__info {
     margin-top: 56px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* ABOUT.HTML */
+
+
+/* HERO */
+.hero-about {
+    padding-top: 47px;
+    padding-bottom: 120px;.
+}
+.hero-about__container {
+}
+.container {
+}
+.hero-about__title-wrapper {
+}
+.hero-about__title {
+}
+.hero-about__text-wrapper {
+}
+.hero-about__line {
+}
+.hero-about__text {
 }
