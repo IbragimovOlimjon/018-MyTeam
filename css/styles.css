@@ -932,6 +932,7 @@ img {
     line-height: 28px;
     margin: 0;
     margin-left: 38px;
+    flex-grow: 1;
 }
 
 .hero-contact__form {
@@ -1017,4 +1018,16 @@ img {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
+    border: 2px solid transparent;
+    transition: 0.1s ease;
+}
+
+.hero-contact__button:hover {
+    background-color: transparent;
+    border: 2px solid var(--color);
+    color: var(--color);
+}
+
+.hero-contact__button:active {
+    opacity: 0.6;
 }
