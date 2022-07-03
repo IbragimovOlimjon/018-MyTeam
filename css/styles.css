@@ -759,6 +759,10 @@ img {
     transition: 0.1s ease;
 }
 
+.meet-directors__icon:hover {
+    transform: rotate(45deg);
+}
+
 .meet-directors__button:hover {
     background-color: var(--color-blue);
 }
@@ -784,6 +788,7 @@ img {
     width: 16px;
     height: 16px;
     object-fit: contain;
+    transition: 0.4s ease;
 }
 
 .meet-directors__heading {
