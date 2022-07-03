@@ -139,7 +139,7 @@ img {
     opacity: 0.9;
 }
 
-.site-header__logo--img {
+.site-header__logo-img {
     width: 160px;
     height: 40px;
     object-fit: contain;
@@ -275,12 +275,12 @@ img {
     justify-content: space-between;
 }
 
-.build-menege__title-wrapper {
+.build-manage-title-wrapper {
     width: 445px;
     margin-right: 125px;
 }
 
-.build__line {
+.build-manage__line {
     width: 50px;
     height: 4px;
     background-color: var(--color-light);
@@ -289,7 +289,7 @@ img {
     margin-bottom: 54px;
 }
 
-.build__title {
+.build-manage__title {
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
@@ -305,16 +305,16 @@ img {
     padding-top: 54px;
 }
 
-.build-menege__iteam {
+.build-manage__iteam {
     display: flex;
     max-width: 540px;
 }
 
-.build-menege__iteam:not(:last-child) {
+.build-manage__iteam:not(:last-child) {
     margin-bottom: 32px;
 }
 
-.build-menege-wrapper {
+.build-manage-wrapper {
     display: flex;
     align-items: center;
     width: 87px;
@@ -326,7 +326,7 @@ img {
     top: 16px;
 }
 
-.build-menege__img {
+.build-manage__img {
     width: 56px;
     height: 56px;
     object-fit: contain;
@@ -335,13 +335,13 @@ img {
     bottom: 16px;
 }
 
-.build-menege__info {
+.build-manage__info {
     display: flex;
     flex-direction: column;
     margin-left: 37px;
 }
 
-.build-menege__heading {
+.build-manage__heading {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -350,7 +350,7 @@ img {
     margin-bottom: 16px;
 }
 
-.build-menege__text {
+.build-manage__text {
     margin: 0;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -568,12 +568,12 @@ img {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.social__wrapper {
+.social-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.social__list {
+.social-wrapper__list {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -582,19 +582,19 @@ img {
     list-style: none;
 }
 
-.social__iteam:not(:last-child) {
+.social-wrapper__iteam:not(:last-child) {
     margin-right: 16px;
 }
 
-.social__link {
+.social-wrapper__link {
     display: flex;
 }
 
-.social__img:hover {
+.social-wrapper__img:hover {
     color: var(--color-light);
 }
 
-.social__img {
+.social-wrapper__img {
     width: 24px;
     height: 24px;
     object-fit: cover;
@@ -602,7 +602,7 @@ img {
     transition: 0.1s ease;
 }
 
-.social__info {
+.social-wrapper__info {
     margin-top: 56px;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -1005,7 +1005,6 @@ img {
     margin-bottom: 24px;
     color: var(--color);
 }
-
 
 .hero-contact__button {
     width: 123px;
