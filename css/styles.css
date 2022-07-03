@@ -360,6 +360,16 @@ img {
 .delivering {
     padding-top: 140px;
     padding-bottom: 140px;
+    background-color: var(--about-bg);
+    background-image: 
+    url("../img/reviews-bg-left.svg"),
+    url("../img/reviews-bg-right.svg");
+    background-repeat: 
+    no-repeat,
+    no-repeat;
+    background-position: 
+    calc(50% + -646px) -1px,
+    calc(50% + 619px) 644px;;
 }
 
 .delivering__container {
@@ -403,8 +413,8 @@ img {
 
 .delivering__item::before {
     content: "";
-    width: 100px;
-    height: 100px;
+    width: 67px;
+    height: 56px;
     position: absolute;
     background-image: url("../img/quote.svg");
     background-repeat: no-repeat;
@@ -962,7 +972,7 @@ img {
     font-size: 10px;
     line-height: 13px;
     color: var(--color-light);
-    padding: 5px;
+    padding: 5px 16px;
     bottom: calc(100% - 61px);
     font-style: italic;
 }
@@ -974,7 +984,7 @@ img {
     font-size: 10px;
     line-height: 13px;
     color: var(--color-light);
-    padding: 5px;
+    padding: 5px 16px;
     bottom: calc(100% - 61px);
     font-style: italic;
 }
