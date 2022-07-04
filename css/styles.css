@@ -196,7 +196,7 @@ img {
 
 /* HERO */
 .hero {
-    padding-top: 56px;
+    padding-top: 51px;
     padding-bottom: 250px;
     position: relative;
     background-image: 
@@ -239,12 +239,13 @@ img {
 }
 
 .hero__line {
+    display: inline-block;
     width: 50px;
     height: 4px;
     background-color: var(--color-blue);
     border: none;
     margin: 0;
-    margin-bottom: 74px;
+    margin-bottom: 64px;
 }
 
 .hero__text {
@@ -652,6 +653,7 @@ img {
 }
 
 .hero-about__line {
+    display: inline-block;
     width: 50px;
     height: 4px;
     margin: 0;
